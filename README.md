@@ -1,25 +1,14 @@
 # Open Reason ($OREN)
 
-![Open Reason mark](assets/logo.png)
 
 **From thought to execution.**
 
 Open Reason is an independent AI-driven token project. This TypeScript agent prepares and monitors its planned Base Mainnet launch on o1 Exchange. It runs on Node.js 24 or newer and uses no OpenAI API credentials. Open Reason has no affiliation with OpenAI.
 
-**Launch proposal** — Standard B20, OREN/ETH, with the fixed supply seeded into the o1 Uniswap v4 pool, editable metadata disabled and no developer buy. USDC is supported as a launch option. The buyback module takes native ETH into the verified OREN/ETH launch pool. See [the launch review](docs/launch-review.md).
-
-## Start locally
-
-```sh
-npm ci --ignore-scripts
-npm test
-npm run agent -- doctor
-npm run agent -- metadata
-```
+**Launch proposal** — Standard B20, OREN/COIN, with the fixed supply seeded into the o1 Uniswap v4 pool, editable metadata disabled and no developer buy. USDC is supported as a launch option. The buyback module takes native ETH into the verified OREN/ETH launch pool. See [the launch review](docs/launch-review.md).
 
 `doctor` checks o1 production health, the Base chain ID and the Standard factory’s ETH and USDC registration, supply, fee and creation status without an API key. `metadata` displays the fixed project identity and a hash of the PNG.
 
-Copy `.env.example` to `.env` on the operator machine and restrict access with `chmod 600 .env`. Configure the two public wallet addresses and owner-selected caps. Keep `OREN_TOKEN_ADDRESS` empty until a confirmed launch receipt identifies the contract. Use a dedicated o1 Launchpad API key with the scopes appropriate to the command.
 
 | Operation | o1 scopes |
 | --- | --- |
