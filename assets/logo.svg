@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Open Reason</title>
+  <desc>A white interrupted octagon with a blue opening and a rising white signal.</desc>
+  <path fill="#0052FF" d="M0 0h512v512H0z"/>
+  <path fill="none" stroke="#FFF" stroke-width="34" stroke-linejoin="bevel"
+    d="M353 145 298 90h-84L90 214v84l124 124h84l124-124v-49"/>
+  <path fill="#FFF" d="M181 294h51l104-104h-34v-34h92v92h-34v-34L246 328h-65z"/>
+  <path fill="#FFF" d="M130 294h25v34h-25z"/>
+</svg>
